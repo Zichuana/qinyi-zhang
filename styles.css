@@ -211,7 +211,7 @@ strong {
   margin: 0;
 }
 
-.content-card p + p {
+.content-card > p + p {
   margin-top: 1rem;
 }
 

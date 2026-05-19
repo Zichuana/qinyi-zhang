@@ -245,6 +245,7 @@ strong {
   overflow-y: auto;
   padding-right: 0.5rem;
   scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
 }
 
 .news-scroll li {
@@ -374,6 +375,20 @@ strong {
 @media (max-width: 640px) {
   .page-shell {
     width: min(calc(100% - 1rem), var(--max-width));
+  }
+
+  .news-scroll {
+    max-height: 12rem;
+    padding-right: 0;
+    padding-left: 0.75rem;
+  }
+
+  .news-scroll li.news-important {
+    padding-right: 2.4rem;
+  }
+
+  .news-scroll li.news-important::after {
+    right: 0;
   }
 
   .section {

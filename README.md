@@ -9,6 +9,7 @@
 - `script.js`：单页导航高亮（滚动时自动高亮当前 section）
 - `favicon.png`：头像图片（页面头像目前使用该文件）
 - `icons.png`：站点标签页图标（favicon）
+- `assets/ongoing/`：在研项目图片目录（把项目图放这里，再在 `index.html` 引用）
 
 ## 常用修改位置
 

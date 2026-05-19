@@ -356,9 +356,10 @@ strong {
 }
 
 .ongoing-item img {
-  width: 70%;
-  max-width: 520px;
+  width: 64%;
+  max-width: 480px;
   height: auto;
+  max-height: 260px;
   display: block;
   margin: 0.6rem auto 0.1rem;
   object-fit: contain;
@@ -423,6 +424,7 @@ strong {
   .ongoing-item img {
     width: 100%;
     max-width: 560px;
+    max-height: 220px;
   }
 
   .news-scroll {

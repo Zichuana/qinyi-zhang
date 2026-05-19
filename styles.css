@@ -344,10 +344,15 @@ strong {
   align-items: start;
 }
 
-.content-card--contact {
+.contact-block {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.contact-block p {
+  margin: 0;
+  color: var(--text-soft);
 }
 
 @media (max-width: 820px) {

@@ -250,11 +250,7 @@ strong {
 
 .news-scroll li {
   padding: 0.55rem 0;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  line-clamp: 2;
-  -webkit-line-clamp: 2;
+  overflow: visible;
 }
 
 .news-scroll li.news-important {
